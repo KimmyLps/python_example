@@ -1,0 +1,22 @@
+# if use the environment variable RUN following this steps
+# 1. RUN command `python -m virtualenv exercise_detection_env`
+# 2. RUN command `exercise_detection_env/Scripts/activate`
+# 3. RUN command `pip install -r requirements.txt`
+
+customtkinter==5.2.0
+Pillow==10.0.0
+google-cloud-firestore==2.11.1
+CTkMessagebox==2.5
+tkcalendar==1.6.1
+virtualenv==20.24.3
+matplotlib==3.7.2
+CTkTable==0.8
+numpy==1.25.1
+opencv-python==4.8.0.76
+firebase-admin==6.2.0
+mediapipe==0.10.3
+
+# When run error opencv response <ImportError: libGL.so.1: cannot open shared object file: No such file or directory>
+# 1. RUN command `apt-get update && apt-get install -y python3-opencv`
+# 2. RUN command `pip install opencv-python`
+# 3. RUN the project again
